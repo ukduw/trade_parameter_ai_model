@@ -1,6 +1,7 @@
 
 # alpha vantage api for market data
     # use last x days from date of data?
+# how much data? - how many days worth of personal configs?
 
 # (necessary to preprocess data?)
     # (handle missing values, remove duplicates, transform data to suitable format for model)
