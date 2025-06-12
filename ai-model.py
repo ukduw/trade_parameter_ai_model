@@ -3,6 +3,8 @@
     # use last x days from date of data?
 # hybrid bot writing dated configs to file
     # how many days worth of personal configs needed?
+    # also need to import full screener return vs which ones were added to config...
+        # which model needed to learn stock selection? classification?
 
 
 # model training:
@@ -24,3 +26,13 @@
 # adjust hyperparameters, refine data...
 
 
+
+# Classification for the different setups?
+    # use to determine which setups are returned by screener
+    # use that to ML which ones from each class are being selected...
+
+# Clustering for trade planning?
+    # market data + class + configs = entry/stop
+    # don't think Regression is applicable - not trying to use past data to predict anything...
+    # ML where to put entry/stop based on price action
+    # ML trailing %, position size based on range, risk, etc...
