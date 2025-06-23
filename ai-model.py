@@ -1,12 +1,20 @@
 
 # alpha vantage api for market data
     # use last x days from date of data?
-# hybrid bot writing dated configs to file
-    # how many days worth of personal configs needed?
-    # also need to import full screener return vs which ones were added to config...
-        # which model needed to learn stock selection? classification?
+# change of plans...
+# skip last project, go straight to TA pattern recognition for long-term plays
+
+# TA libraries (TA-Lib, finta, bt...) to script pattern detection
+# Create synthetic patterns for pretraining(???)
+# Try semi-supervised or active learning to stretch limited labels(?)
+# Screen resultant list by fundamentals
+    # i.e. region, market cap...
+# Then personally check out returned list
 
 
+
+
+#==========#
 # model training:
 # (necessary to preprocess data?)
     # (handle missing values, remove duplicates, transform data to suitable format for model)
@@ -24,7 +32,6 @@
     # track accuracy, precision, recall...
 # use validation and test sets to assess trained model's performance, identify flaws
 # adjust hyperparameters, refine data...
-
 
 
 # Classification for the different setups?
